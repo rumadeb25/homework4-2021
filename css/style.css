@@ -32,6 +32,7 @@ body{
   background-position: center;
   font-family: 'Andika', sans-serif;
   background-image: url("../images/pigeon-background.JPEG");
+  background-repeat: no-repeat;
   background-color: #DDDDDD;
 
   /*Req 1*/
@@ -53,7 +54,7 @@ p{
 a{
   font-size: 16px;
   color: #B21F50;
-  text-decoration: wavy;
+  text-decoration-style: wavy;
   /*Req 4*/
 }
 
@@ -77,7 +78,7 @@ td{
 /*Req 6b*/
 .colhead{
   color: #FFFFFF;
-  width: 125px;
+  min-width: 125px;
   padding: 10px;
   color: white;
   text-align: center;
@@ -117,7 +118,7 @@ table{
   margin: auto;
   border: 2px solid #000000;
   border-collapse: separate;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 thead tr:first-child th:first-child{
@@ -132,14 +133,15 @@ tbody tr:last-child th:first-child{
   border-bottom-left-radius: 10px;
 }
 
-tbody tr:last-child th:last-child{
+tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
 }
+
 /*Add selectors and rules here*/
 
 /*Req 8*/
 footer{
-  position: absolute;
+  position: fixed;
   width:100%;
   background:#000000;
   text-align:center;
