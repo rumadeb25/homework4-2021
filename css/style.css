@@ -145,6 +145,8 @@ footer{
   width:100%;
   background:#000000;
   text-align:center;
+  left: 0;
+  bottom: 0;
   color: #FFFFFF;
   min-height: 75px;
 }
